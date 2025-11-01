@@ -8,7 +8,6 @@ I’m passionate about solving real-world problems through software and contribu
 ---
 
 ## 📊 GitHub Insights
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=PrageethBanuka&show_icons=true&theme=tokyonight)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=PrageethBanuka&layout=compact&theme=tokyonight)
 
 ---
