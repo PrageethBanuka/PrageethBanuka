@@ -8,10 +8,10 @@
 
 ### ✦ Engineering Milestones & Impact
 
-* <img src="https://api.iconify.design/feather:award.svg?color=%23888888" width="16" align="absmiddle" /> **Global Hackathon Top Tier:** Competed globally in a 24-hour programming competition among 17,000+ participants, achieving Global Rank 418 (Sri Lanka Rank 22) in the IEEE Xtreme 18.0 hackathon. 
-* <img src="https://api.iconify.design/feather:cpu.svg?color=%23888888" width="16" align="absmiddle" /> **Open-Source Systems Engineering:** Ported the RoboEyes animation engine from C++ to Python for Raspberry Pi robotics applications. [cite: 40] [cite_start]Engineered an optimized hardware rendering pipeline using NumPy and direct pixel buffer manipulation.
-* <img src="https://api.iconify.design/feather:target.svg?color=%23888888" width="16" align="absmiddle" /> **High-Accuracy ML Architecture:** Developed a context-aware web traffic classification model achieving 94.3% accuracy utilizing a scikit-learn Random Forest model.
-*<img src="https://api.iconify.design/feather:server.svg?color=%23888888" width="16" align="absmiddle" /> **Automated Infrastructure:** Designed and implemented an automated CI/CD pipeline to deploy a full-stack application on AWS, provisioning secure infrastructure using Terraform.
+<img src="https://api.iconify.design/feather:award.svg?color=%23888888" width="16" align="absmiddle" /> **Global Hackathon Top Tier:** Competed globally in a 24-hour programming competition among 17,000+ participants, achieving Global Rank 418 (Sri Lanka Rank 22) in the IEEE Xtreme 18.0 hackathon. 
+<img src="https://api.iconify.design/feather:cpu.svg?color=%23888888" width="16" align="absmiddle" /> **Open-Source Systems Engineering:** Ported the RoboEyes animation engine from C++ to Python for Raspberry Pi robotics applications. [cite: 40] [cite_start]Engineered an optimized hardware rendering pipeline using NumPy and direct pixel buffer manipulation.
+<img src="https://api.iconify.design/feather:target.svg?color=%23888888" width="16" align="absmiddle" /> **High-Accuracy ML Architecture:** Developed a context-aware web traffic classification model achieving 94.3% accuracy utilizing a scikit-learn Random Forest model.
+<img src="https://api.iconify.design/feather:server.svg?color=%23888888" width="16" align="absmiddle" /> **Automated Infrastructure:** Designed and implemented an automated CI/CD pipeline to deploy a full-stack application on AWS, provisioning secure infrastructure using Terraform.
 
 ---
 
