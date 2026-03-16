@@ -1,15 +1,14 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0f0f,100:1c1c1c&height=220&section=header&text=Banuka%20Rajapaksha&fontSize=42&fontColor=ffffff&animation=fadeIn"/>
+<!-- Animated gradient banner -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d0d0d,25:1a1a1a,50:222222,75:1a1a1a,100:0d0d0d&height=220&section=header&text=&fontSize=40&animation=twinkling"/>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Inter&weight=500&size=24&pause=1000&color=AAAAAA&center=true&vCenter=true&width=650&lines=Computer+Engineering+Undergraduate;AI+%26+Systems+Engineer;Building+Scalable+Software;Automation+%7C+Distributed+Systems"/>
+<!-- Animated typing intro -->
+<img src="https://readme-typing-svg.herokuapp.com?font=Inter&weight=500&size=26&pause=1000&color=E6E6E6&center=true&vCenter=true&width=700&lines=Banuka+Rajapaksha;Computer+Engineering+Undergraduate;AI+%26+Systems+Engineer;Building+Scalable+Software+%7C+Automation+%7C+Infrastructure"/>
 
-<br>
-
-<a href="https://komarev.com/ghpvc/?username=PrageethBanuka">
-<img src="https://komarev.com/ghpvc/?username=PrageethBanuka&style=flat-square&color=grey" />
-</a>
+<!-- subtle divider -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d0d0d,100:111111&height=20&section=header"/>
 
 </div>
 
@@ -17,16 +16,16 @@
 
 # About
 
-Computer Engineering undergraduate focused on **building scalable systems, intelligent automation, and high‑performance tools**.
+Computer Engineering undergraduate focused on **scalable systems, intelligent automation, and high‑performance engineering tools**.
 
 My work combines:
 
 • Artificial Intelligence  
 • Distributed Systems  
-• DevOps Automation  
-• Developer Productivity Tools  
+• DevOps & Infrastructure  
+• Developer Productivity Platforms  
 
-I enjoy designing software that **scales, automates workflows, and solves real engineering problems.**
+I enjoy designing systems that **scale reliably and solve real engineering problems.**
 
 ---
 
@@ -36,11 +35,11 @@ I enjoy designing software that **scales, automates workflows, and solves real e
 
 Hardware‑optimized animation engine designed for robotics platforms.
 
-Key highlights:
+Highlights
 
 • Ported rendering engine from **C++ → Python**  
 • Implemented optimized **NumPy pixel buffer rendering**  
-• Built hardware‑efficient pipeline for **Raspberry Pi robotics displays**
+• Designed pipeline for **Raspberry Pi robotics displays**
 
 ---
 
@@ -50,11 +49,11 @@ AI‑driven productivity platform combining browser automation and analytics.
 
 Architecture
 
-Chrome Extension → FastAPI → PostgreSQL → Docker → Cloud Deployment
+Chrome Extension → FastAPI → PostgreSQL → Docker → Cloud
 
 Capabilities
 
-• AI‑based distraction detection  
+• AI distraction detection  
 • productivity behavior analytics  
 • intelligent automation agents
 
@@ -68,7 +67,7 @@ Features
 
 • Raspberry Pi switch cluster  
 • OpenFlow routing experiments  
-• network topology visualization
+• topology visualization
 
 ---
 
@@ -108,9 +107,9 @@ Features
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=PrageethBanuka&show_icons=true&theme=transparent&hide_border=true&title_color=aaaaaa&icon_color=aaaaaa&text_color=aaaaaa"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=PrageethBanuka&show_icons=true&theme=transparent&hide_border=true&title_color=bbbbbb&icon_color=bbbbbb&text_color=bbbbbb"/>
 
-<img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=PrageethBanuka&theme=transparent&hide_border=true&stroke=888888&ring=888888&fire=888888"/>
+<img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=PrageethBanuka&theme=transparent&hide_border=true&stroke=777777&ring=aaaaaa&fire=aaaaaa"/>
 
 </div>
 
@@ -126,7 +125,7 @@ Features
 
 ---
 
-# Contribution Snake
+# Contribution Snake Animation
 
 <div align="center">
 
@@ -150,7 +149,7 @@ Features
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=PrageethBanuka&theme=darkhub&no-frame=true&margin-w=10"/>
+<img src="https://github-profile-trophy.vercel.app/?username=PrageethBanuka&theme=darkhub&no-frame=true&margin-w=12"/>
 
 </div>
 
@@ -159,8 +158,8 @@ Features
 # Currently Building
 
 • AI productivity tools  
-• distributed full‑stack platforms  
-• intelligent developer automation systems
+• distributed full‑stack systems  
+• intelligent developer automation
 
 ---
 
@@ -176,9 +175,10 @@ LinkedIn • Portfolio • Email
 
 <div align="center">
 
-Engineering systems that **scale, automate, and think.**
+Engineering systems that **scale, automate, and think**
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1c1c1c,100:0f0f0f&height=120&section=footer"/>
+<!-- animated footer -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0d0d,100:1a1a1a&height=120&section=footer"/>
 
