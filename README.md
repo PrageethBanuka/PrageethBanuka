@@ -2,8 +2,6 @@
   <img src="./header.svg" alt="Banuka Rajapaksha" width="100%"/>
 </div>
 
-<br/>
-
 <div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=15&duration=3500&pause=1000&color=38BDF8&center=true&vCenter=true&width=620&lines=Building+systems+that+scale%2C+automate+%26+think.;Global+Rank+%23418+%E2%80%94+IEEE+Xtreme+18.0+%2F+17%2C000%2B;AI+%C3%97+Distributed+Systems+%C3%97+Infrastructure.;Turning+engineering+problems+into+elegant+solutions." alt="Typing SVG"/>
 </div>
@@ -28,8 +26,8 @@ profile:
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" alt="Laptop" width="28" height="28" style="vertical-align: middle;" /> &nbsp; Featured Projects
 
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
-<tr>
-<td width="32%" valign="top" align="left">
+<tr valign="top">
+<td width="33%">
 
 ### ⚡ FastRoboEyes
 **High-Performance Rendering Engine**
@@ -45,8 +43,7 @@ Hardware-optimized animation pipeline built for robotics platforms.
 <img src="https://img.shields.io/badge/Python-0a0a0a?style=flat-square&logo=python&logoColor=38BDF8" />
 
 </td>
-<td width="2%"></td>
-<td width="32%" valign="top" align="left">
+<td width="33%">
 
 ### 🧠 AdaptiFocus
 **AI Attention Management**
@@ -62,8 +59,7 @@ AI-driven productivity platform with behavioral analytics.
 <img src="https://img.shields.io/badge/Docker-0a0a0a?style=flat-square&logo=docker&logoColor=38BDF8" />
 
 </td>
-<td width="2%"></td>
-<td width="32%" valign="top" align="left">
+<td width="34%">
 
 ### 🌐 SDN Testbed
 **Software Defined Networking**
@@ -86,17 +82,13 @@ Experimental SDN environment on Raspberry Pi hardware.
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Toolbox.png" alt="Toolbox" width="28" height="28" style="vertical-align: middle;" /> &nbsp; Technology Stack
 
-<br/>
-
 <div align="center">
   <img src="https://skillicons.dev/icons?i=python,cpp,java,dart,spring,react,flutter,fastapi,aws,docker,terraform,linux&theme=dark&perline=6" />
 </div>
 
-<br/><br/>
+<br/>
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Trophy.png" alt="Trophy" width="28" height="28" style="vertical-align: middle;" /> &nbsp; Achievements
-
-<br/>
 
 <div align="center">
 
@@ -117,8 +109,6 @@ Experimental SDN environment on Raspberry Pi hardware.
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Chart%20Increasing.png" alt="Chart" width="28" height="28" style="vertical-align: middle;" /> &nbsp; Activity Matrix
 
-<br/>
-
 <div align="center">
 
 <img height="160" src="https://github-readme-stats.vercel.app/api?username=PrageethBanuka&show_icons=true&theme=transparent&hide_border=true&title_color=E5E7EB&icon_color=38BDF8&text_color=9CA3AF&bg_color=00000000&rank_icon=github" />
@@ -134,8 +124,6 @@ Experimental SDN environment on Raspberry Pi hardware.
 <br/>
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals/Snake.png" alt="Snake" width="28" height="28" style="vertical-align: middle;" /> &nbsp; Contribution Trail
-
-<br/>
 
 <div align="center">
   <picture>
