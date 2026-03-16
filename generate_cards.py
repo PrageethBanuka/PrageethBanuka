@@ -3,40 +3,40 @@ import os
 cards = [
     {
         "id": "project1",
-        "icon": "⚡",
+        "icon_path": '<path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>',
         "title": "FastRoboEyes",
         "subtitle": "High-Performance Rendering Engine",
         "desc1": "Hardware-optimized animation",
         "desc2": "pipeline built for robotics platforms.",
         "tags": [("C++", 45), ("Python", 60)],
-        "glow1": "rgba(56, 189, 248, 0.5)",  # cyan
-        "glow2": "rgba(99, 102, 241, 0.4)",  # indigo
+        "glow1": "rgba(56, 189, 248, 0.5)",
+        "glow2": "rgba(99, 102, 241, 0.4)",
     },
     {
         "id": "project2",
-        "icon": "🧠",
+        "icon_path": '<path d="M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96.44 2.5 2.5 0 0 1-2.96-3.08 3 3 0 0 1-.34-5.58 2.5 2.5 0 0 1 1.32-4.24 2.5 2.5 0 0 1 1.98-3A2.5 2.5 0 0 1 9.5 2ZM14.5 2A2.5 2.5 0 0 0 12 4.5v15a2.5 2.5 0 0 0 4.96.44 2.5 2.5 0 0 0 2.96-3.08 3 3 0 0 0 .34-5.58 2.5 2.5 0 0 0-1.32-4.24 2.5 2.5 0 0 0-1.98-3A2.5 2.5 0 0 0 14.5 2Z" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>',
         "title": "AdaptiFocus",
         "subtitle": "AI Attention Management",
         "desc1": "AI-driven productivity platform",
         "desc2": "with behavioral analytics.",
         "tags": [("FastAPI", 65), ("Docker", 60)],
-        "glow1": "rgba(168, 85, 247, 0.5)",  # purple
-        "glow2": "rgba(236, 72, 153, 0.4)",  # pink
+        "glow1": "rgba(168, 85, 247, 0.5)",
+        "glow2": "rgba(236, 72, 153, 0.4)",
     },
     {
         "id": "project3",
-        "icon": "🌐",
+        "icon_path": '<circle cx="12" cy="12" r="10" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" fill="none" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M2 12h20" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>',
         "title": "SDN Testbed",
         "subtitle": "Software Defined Networking",
         "desc1": "Experimental SDN environment",
         "desc2": "on Raspberry Pi clusters.",
         "tags": [("Linux", 50), ("Network", 70)],
-        "glow1": "rgba(234, 179, 8, 0.4)",   # yellow
-        "glow2": "rgba(239, 68, 68, 0.4)",   # red
+        "glow1": "rgba(234, 179, 8, 0.4)",
+        "glow2": "rgba(239, 68, 68, 0.4)",
     }
 ]
 
-template = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 230" width="100%" height="100%">
+template = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 230" width="380" height="230">
   <defs>
     <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
       <feGaussianBlur stdDeviation="35" result="blur" />
@@ -59,8 +59,11 @@ template = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 230" widt
 
   <rect x="15" y="15" width="350" height="200" rx="20" ry="20" fill="url(#glassGradient)" stroke="url(#borderGradient)" stroke-width="1.5" filter="url(#shadow)" />
 
+  <g transform="translate(34, 38) scale(1.3)">
+    {icon_path}
+  </g>
+
   <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
-    <text x="40" y="58" font-size="24">{icon}</text>
     <text x="75" y="56" font-size="22" font-weight="700" fill="#ffffff" letter-spacing="0.5px">{title}</text>
     
     <text x="40" y="94" font-size="14" font-weight="600" fill="#e5e7eb">{subtitle}</text>
@@ -84,7 +87,7 @@ for card in cards:
     svg_str = template.format(
         glow1=card["glow1"],
         glow2=card["glow2"],
-        icon=card["icon"],
+        icon_path=card["icon_path"],
         title=card["title"],
         subtitle=card["subtitle"],
         desc1=card["desc1"],

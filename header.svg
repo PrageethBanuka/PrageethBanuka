@@ -1,118 +1,62 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 260" width="100%" height="100%">
   <defs>
     <style>
-      /* ── Entrance animations ────────────────────────── */
-      @keyframes fadeUp {
-        from { opacity: 0; transform: translateY(14px); }
-        to   { opacity: 1; transform: translateY(0); }
-      }
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&amp;display=swap');
+
+      /* ── Animations ───────────────────────────── */
       @keyframes fadeIn {
-        from { opacity: 0; }
-        to   { opacity: 1; }
+        to { opacity: 1; }
+      }
+      @keyframes fadeUp {
+        0%   { opacity: 0; transform: translateY(15px); }
+        100% { opacity: 1; transform: translateY(0); }
       }
       @keyframes expandX {
-        from { transform: scaleX(0); }
-        to   { transform: scaleX(1); }
+        to { transform: scaleX(1); }
       }
       @keyframes chipSlide {
-        from { opacity: 0; transform: translateY(8px); }
-        to   { opacity: 1; transform: translateY(0); }
-      }
-      @keyframes blink {
-        0%, 100% { opacity: 0.15; }
-        50%       { opacity: 0.7; }
+        0%   { opacity: 0; transform: translateX(-10px); }
+        100% { opacity: 1; transform: translateX(0); }
       }
 
-      /* ── Circuit trace: dash traveling along a path ── */
-      @keyframes trace1 {
-        0%   { stroke-dashoffset: 520; opacity: 0; }
-        5%   { opacity: 1; }
-        90%  { opacity: 1; }
-        100% { stroke-dashoffset: 0;   opacity: 0; }
+      /* ── Glass Morphism & Ambient Layers ───────── */
+      @keyframes ambientGlow1 {
+        0%, 100% { transform: scale(1) translate(0, 0); opacity: 0.4; }
+        50% { transform: scale(1.1) translate(20px, -20px); opacity: 0.6; }
       }
-      @keyframes trace2 {
-        0%   { stroke-dashoffset: 380; opacity: 0; }
-        5%   { opacity: 1; }
-        90%  { opacity: 1; }
-        100% { stroke-dashoffset: 0;   opacity: 0; }
-      }
-      @keyframes trace3 {
-        0%   { stroke-dashoffset: 460; opacity: 0; }
-        5%   { opacity: 1; }
-        90%  { opacity: 1; }
-        100% { stroke-dashoffset: 0;   opacity: 0; }
-      }
-      @keyframes trace4 {
-        0%   { stroke-dashoffset: 300; opacity: 0; }
-        5%   { opacity: 1; }
-        90%  { opacity: 1; }
-        100% { stroke-dashoffset: 0;   opacity: 0; }
-      }
-      @keyframes trace5 {
-        0%   { stroke-dashoffset: 410; opacity: 0; }
-        5%   { opacity: 1; }
-        90%  { opacity: 1; }
-        100% { stroke-dashoffset: 0;   opacity: 0; }
+      @keyframes ambientGlow2 {
+        0%, 100% { transform: scale(1) translate(0, 0); opacity: 0.3; }
+        50% { transform: scale(1.2) translate(-30px, 10px); opacity: 0.5; }
       }
 
-      /* Trace base style */
-      .trace {
-        fill: none;
-        stroke-width: 1;
-        stroke-linecap: round;
-        stroke-linejoin: round;
+      .glow-orb-1 {
+        fill: rgba(56, 189, 248, 0.4); /* Cyan glow */
+        filter: blur(50px);
+        transform-origin: center;
+        animation: ambientGlow1 8s ease-in-out infinite;
+      }
+      .glow-orb-2 {
+        fill: rgba(99, 102, 241, 0.3); /* Indigo glow */
+        filter: blur(60px);
+        transform-origin: center;
+        animation: ambientGlow2 10s ease-in-out infinite reverse;
       }
 
-      /* Each trace: unique color, dash length, duration, delay */
-      .t1 {
-        stroke: #1e3a2f;
-        stroke-dasharray: 60 460;
-        animation: trace1 6s linear 0.5s infinite;
-        opacity: 0;
+      /* ── Glass Panel ───────────────────────────── */
+      .glass-card {
+        fill: rgba(255, 255, 255, 0.03);
+        stroke: rgba(255, 255, 255, 0.1);
+        stroke-width: 1px;
+        backdrop-filter: blur(16px);
       }
-      .t2 {
-        stroke: #1a2e3a;
-        stroke-dasharray: 50 330;
-        animation: trace2 8s linear 2s infinite;
-        opacity: 0;
-      }
-      .t3 {
-        stroke: #2a2a1e;
-        stroke-dasharray: 70 390;
-        animation: trace3 7s linear 1.2s infinite;
-        opacity: 0;
-      }
-      .t4 {
-        stroke: #1e3a2f;
-        stroke-dasharray: 45 255;
-        animation: trace4 5s linear 3.5s infinite;
-        opacity: 0;
-      }
-      .t5 {
-        stroke: #1a2e3a;
-        stroke-dasharray: 55 355;
-        animation: trace5 9s linear 0.8s infinite;
-        opacity: 0;
-      }
-      /* Bright dot nodes that pulse at circuit junctions */
-      @keyframes nodePop {
-        0%, 100% { opacity: 0.08; r: 2; }
-        50%       { opacity: 0.5;  r: 3; }
-      }
-      .node {
-        animation: nodePop 3s ease-in-out infinite;
-      }
-
-      /* ── Static grid ─────────────────────────────── */
-      .grid { stroke: #131313; stroke-width: 0.6; }
 
       /* ── Text ────────────────────────────────────── */
       .name {
-        font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
-        font-size: 52px;
+        font-family: 'Inter', sans-serif;
+        font-size: 56px;
         font-weight: 700;
         letter-spacing: -2px;
-        fill: #efefef;
+        fill: #ffffff;
         opacity: 0;
         animation: fadeUp 0.9s cubic-bezier(0.16,1,0.3,1) 0.2s forwards;
       }
@@ -122,134 +66,95 @@
         animation: expandX 0.7s cubic-bezier(0.16,1,0.3,1) 0.8s forwards;
       }
       .subtitle {
-        font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
-        font-size: 11px;
-        font-weight: 400;
+        font-family: 'Inter', sans-serif;
+        font-size: 12px;
+        font-weight: 500;
         letter-spacing: 4.5px;
-        fill: #505050;
+        fill: #9ca3af;
         opacity: 0;
         animation: fadeIn 0.8s ease 1.05s forwards;
       }
-      .chip-bg   { fill: #111111; stroke: #222222; stroke-width: 0.8; }
-      .chip-text {
-        font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
-        font-size: 10px;
-        font-weight: 500;
-        letter-spacing: 1.8px;
-        fill: #444444;
+      
+      /* ── Glass Chips ───────────────────────────── */
+      .chip-bg { 
+        fill: rgba(255, 255, 255, 0.05); 
+        stroke: rgba(255, 255, 255, 0.15); 
+        stroke-width: 1px; 
       }
-      .c1 { opacity:0; animation: chipSlide 0.5s ease 1.25s forwards; }
-      .c2 { opacity:0; animation: chipSlide 0.5s ease 1.40s forwards; }
-      .c3 { opacity:0; animation: chipSlide 0.5s ease 1.55s forwards; }
-      .c4 { opacity:0; animation: chipSlide 0.5s ease 1.70s forwards; }
+      .chip-icon {
+        stroke: #38BDF8;
+        stroke-width: 1.5;
+        fill: none;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+      .chip-text {
+        font-family: 'Inter', sans-serif;
+        font-size: 10px;
+        font-weight: 600;
+        letter-spacing: 1.8px;
+        fill: #e5e7eb;
+      }
+      
+      .c1 { opacity:0; animation: chipSlide 0.5s cubic-bezier(0.16,1,0.3,1) 1.25s forwards; }
+      .c2 { opacity:0; animation: chipSlide 0.5s cubic-bezier(0.16,1,0.3,1) 1.35s forwards; }
+      .c3 { opacity:0; animation: chipSlide 0.5s cubic-bezier(0.16,1,0.3,1) 1.45s forwards; }
+      .c4 { opacity:0; animation: chipSlide 0.5s cubic-bezier(0.16,1,0.3,1) 1.55s forwards; }
 
-      .bracket { stroke: #232323; stroke-width: 1; fill: none; opacity: 0; animation: fadeIn 1s ease 0.3s forwards; }
-      .corner-dot { fill: #2a2a2a; animation: blink 4s ease-in-out infinite; }
     </style>
   </defs>
 
-  <!-- Background -->
-  <rect width="900" height="260" fill="#0a0a0a"/>
+  <!-- Background Base -->
+  <rect width="900" height="260" fill="#050505"/>
 
-  <!-- Static grid -->
-  <line class="grid" x1="150" y1="0"   x2="150" y2="260"/>
-  <line class="grid" x1="300" y1="0"   x2="300" y2="260"/>
-  <line class="grid" x1="450" y1="0"   x2="450" y2="260"/>
-  <line class="grid" x1="600" y1="0"   x2="600" y2="260"/>
-  <line class="grid" x1="750" y1="0"   x2="750" y2="260"/>
-  <line class="grid" x1="0"   y1="65"  x2="900" y2="65"/>
-  <line class="grid" x1="0"   y1="130" x2="900" y2="130"/>
-  <line class="grid" x1="0"   y1="195" x2="900" y2="195"/>
+  <!-- Ambient Glow Effects -->
+  <circle class="glow-orb-1" cx="200" cy="80" r="140" />
+  <circle class="glow-orb-2" cx="700" cy="180" r="160" />
 
-  <!-- ══════════════════════════════════════════════
-       CIRCUIT TRACES — paths that follow the grid
-       Each path is an L-shaped PCB trace route
-       ══════════════════════════════════════════════ -->
+  <!-- Main Glassmorphic Panel -->
+  <rect x="50" y="30" width="800" height="200" rx="32" class="glass-card"/>
 
-  <!-- Trace 1: top-left → right along y=65, then down, then right -->
-  <path class="trace t1" d="M 0,65 H 150 V 130 H 300 V 65 H 600"/>
-
-  <!-- Trace 2: right side → left along y=130, then up, then left -->
-  <path class="trace t2" d="M 900,130 H 750 V 65 H 600 V 0"/>
-
-  <!-- Trace 3: bottom-left → right along y=195, up at 450, right -->
-  <path class="trace t3" d="M 0,195 H 300 V 130 H 450 V 195 H 750 V 260"/>
-
-  <!-- Trace 4: top-right descending short loop -->
-  <path class="trace t4" d="M 900,65 H 750 V 130 H 900"/>
-
-  <!-- Trace 5: mid from left, snakes through center -->
-  <path class="trace t5" d="M 0,130 H 150 V 195 H 300 V 130 H 450 V 65 H 600 V 130 H 750"/>
-
-  <!-- Circuit junction nodes (static dots at grid intersections) -->
-  <circle class="node" cx="150" cy="65"  r="2" fill="#1e3a2f" style="animation-delay:0s"/>
-  <circle class="node" cx="300" cy="130" r="2" fill="#1a2e3a" style="animation-delay:0.8s"/>
-  <circle class="node" cx="450" cy="65"  r="2" fill="#1e3a2f" style="animation-delay:1.6s"/>
-  <circle class="node" cx="600" cy="130" r="2" fill="#1a2e3a" style="animation-delay:2.4s"/>
-  <circle class="node" cx="750" cy="195" r="2" fill="#2a2a1e" style="animation-delay:0.4s"/>
-  <circle class="node" cx="150" cy="195" r="2" fill="#1e3a2f" style="animation-delay:1.2s"/>
-  <circle class="node" cx="300" cy="65"  r="2" fill="#1a2e3a" style="animation-delay:2.0s"/>
-  <circle class="node" cx="600" cy="65"  r="2" fill="#2a2a1e" style="animation-delay:0.6s"/>
-  <circle class="node" cx="450" cy="195" r="2" fill="#1e3a2f" style="animation-delay:1.8s"/>
-  <circle class="node" cx="750" cy="65"  r="2" fill="#1a2e3a" style="animation-delay:1.0s"/>
-
-  <!-- Corner brackets -->
-  <polyline class="bracket" points="16,36 16,16 36,16"/>
-  <polyline class="bracket" points="864,36 864,16 884,16"/>
-  <polyline class="bracket" points="16,224 16,244 36,244"/>
-  <polyline class="bracket" points="864,224 864,244 884,244"/>
-
-  <!-- Corner dots -->
-  <circle class="corner-dot" cx="16"  cy="16"  r="2" style="animation-delay:0s"/>
-  <circle class="corner-dot" cx="884" cy="16"  r="2" style="animation-delay:1s"/>
-  <circle class="corner-dot" cx="16"  cy="244" r="2" style="animation-delay:2s"/>
-  <circle class="corner-dot" cx="884" cy="244" r="2" style="animation-delay:3s"/>
+  <!-- Inner Subtle Borders -->
+  <rect x="51" y="31" width="798" height="198" rx="31" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
 
   <!-- ── NAME ── -->
   <text class="name" x="450" y="118" text-anchor="middle">Banuka Rajapaksha</text>
 
   <!-- ── DIVIDER ── -->
-  <line class="divider" x1="360" y1="133" x2="540" y2="133" stroke="#252525" stroke-width="0.8"/>
+  <line class="divider" x1="320" y1="133" x2="580" y2="133" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
 
   <!-- ── SUBTITLE ── -->
   <text class="subtitle" x="450" y="156" text-anchor="middle">COMPUTER ENGINEERING · AI · SYSTEMS</text>
 
-  <!-- ── CHIPS — total 406px centered: (900-406)/2 = 247 ── -->
+  <!-- ── CHIPS (Centered exactly over 800px panel) ── -->
 
-  <!-- Chip 1: DISTRIBUTED x=247, w=120 -->
-  <g class="c1">
-    <rect x="247" y="184" width="120" height="26" rx="4" class="chip-bg"/>
-    <line x1="265" y1="204" x2="271" y2="190" stroke="#333" stroke-width="1.4" stroke-linecap="round"/>
-    <text class="chip-text" x="281" y="202">DISTRIBUTED</text>
+  <!-- Dist x=235 -->
+  <g class="c1" transform="translate(235, 184)">
+    <rect width="125" height="28" rx="8" class="chip-bg"/>
+    <path class="chip-icon" d="M12 4 L4 12 L12 20 M20 4 L12 12 L20 20" transform="translate(6, 2) scale(0.55)"/>
+    <text class="chip-text" x="32" y="18">DISTRIBUTED</text>
   </g>
 
-  <!-- Chip 2: AI / ML x=375, w=80 -->
-  <g class="c2">
-    <rect x="375" y="184" width="80" height="26" rx="4" class="chip-bg"/>
-    <circle cx="392" cy="197" r="5" fill="none" stroke="#333" stroke-width="1.3"/>
-    <circle cx="392" cy="197" r="2" fill="#333"/>
-    <text class="chip-text" x="404" y="202">AI / ML</text>
+  <!-- AI x=370 -->
+  <g class="c2" transform="translate(370, 184)">
+    <rect width="85" height="28" rx="8" class="chip-bg"/>
+    <path class="chip-icon" d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" transform="translate(6, 2) scale(0.55)"/>
+    <text class="chip-text" x="30" y="18">AI / ML</text>
   </g>
 
-  <!-- Chip 3: DEVOPS x=463, w=88 -->
-  <g class="c3">
-    <rect x="463" y="184" width="88" height="26" rx="4" class="chip-bg"/>
-    <polyline points="473,201 479,193 485,197 485,205 479,209 473,205 473,201" fill="none" stroke="#333" stroke-width="1.2" stroke-linejoin="round"/>
-    <line x1="479" y1="193" x2="479" y2="201" stroke="#333" stroke-width="1.2"/>
-    <text class="chip-text" x="493" y="202">DEVOPS</text>
+  <!-- DevOps x=465 -->
+  <g class="c3" transform="translate(465, 184)">
+    <rect width="90" height="28" rx="8" class="chip-bg"/>
+    <path class="chip-icon" d="M7 16V4M7 8l-4 4 4 4M17 8v12M17 16l4-4-4-4" transform="translate(5, 2) scale(0.55)"/>
+    <text class="chip-text" x="30" y="18">DEVOPS</text>
   </g>
 
-  <!-- Chip 4: ROBOTICS x=559, w=94 -->
-  <g class="c4">
-    <rect x="559" y="184" width="94" height="26" rx="4" class="chip-bg"/>
-    <rect x="567" y="192" width="12" height="10" rx="1.5" fill="none" stroke="#333" stroke-width="1.2"/>
-    <line x1="570" y1="192" x2="570" y2="189" stroke="#333" stroke-width="1"/>
-    <line x1="573" y1="192" x2="573" y2="189" stroke="#333" stroke-width="1"/>
-    <line x1="576" y1="192" x2="576" y2="189" stroke="#333" stroke-width="1"/>
-    <line x1="570" y1="202" x2="570" y2="205" stroke="#333" stroke-width="1"/>
-    <line x1="573" y1="202" x2="573" y2="205" stroke="#333" stroke-width="1"/>
-    <line x1="576" y1="202" x2="576" y2="205" stroke="#333" stroke-width="1"/>
-    <text class="chip-text" x="585" y="202">ROBOTICS</text>
+  <!-- Robotics x=565 -->
+  <g class="c4" transform="translate(565, 184)">
+    <rect width="100" height="28" rx="8" class="chip-bg"/>
+    <path class="chip-icon" d="M12 8V4H8M12 8h4V4" transform="translate(8, 2) scale(0.55)"/>
+    <circle cx="21" cy="16" r="3" class="chip-icon"/>
+    <text class="chip-text" x="34" y="18">ROBOTICS</text>
   </g>
 
 </svg>

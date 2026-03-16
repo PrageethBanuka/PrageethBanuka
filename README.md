@@ -19,25 +19,25 @@ profile:
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" alt="Laptop" width="28" height="28" style="vertical-align: middle;" /> &nbsp; Featured Projects
+## <img src="https://api.iconify.design/lucide:code-2.svg?color=%2338BDF8" alt="Featured" width="28" height="28" style="vertical-align: middle;" /> &nbsp; Featured Projects
 
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <td width="33%" align="center">
-<a href="#"><img src="./project1.svg" alt="FastRoboEyes"/></a>
+<a href="#"><img src="project1.svg" width="100%" alt="FastRoboEyes"/></a>
 </td>
 <td width="33%" align="center">
-<a href="#"><img src="./project2.svg" alt="AdaptiFocus"/></a>
+<a href="#"><img src="project2.svg" width="100%" alt="AdaptiFocus"/></a>
 </td>
 <td width="34%" align="center">
-<a href="#"><img src="./project3.svg" alt="SDN Testbed"/></a>
+<a href="#"><img src="project3.svg" width="100%" alt="SDN Testbed"/></a>
 </td>
 </tr>
 </table>
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Toolbox.png" alt="Toolbox" width="28" height="28" style="vertical-align: middle;" /> &nbsp; Technology Stack
+## <img src="https://api.iconify.design/lucide:layers.svg?color=%2338BDF8" alt="Stack" width="28" height="28" style="vertical-align: middle;" /> &nbsp; Technology Stack
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=python,cpp,java,dart,spring,react,flutter,fastapi,aws,docker,terraform,linux&theme=dark&perline=6" />
@@ -45,7 +45,7 @@ profile:
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Trophy.png" alt="Trophy" width="28" height="28" style="vertical-align: middle;" /> &nbsp; Achievements
+## <img src="https://api.iconify.design/lucide:trophy.svg?color=%2338BDF8" alt="Achievements" width="28" height="28" style="vertical-align: middle;" /> &nbsp; Achievements
 
 <div align="center">
 
@@ -64,7 +64,7 @@ profile:
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Chart%20Increasing.png" alt="Chart" width="28" height="28" style="vertical-align: middle;" /> &nbsp; Activity Matrix
+## <img src="https://api.iconify.design/lucide:bar-chart-2.svg?color=%2338BDF8" alt="Activity" width="28" height="28" style="vertical-align: middle;" /> &nbsp; Activity Matrix
 
 <div align="center">
 
@@ -80,7 +80,7 @@ profile:
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals/Snake.png" alt="Snake" width="28" height="28" style="vertical-align: middle;" /> &nbsp; Contribution Trail
+## <img src="https://api.iconify.design/lucide:git-commit-horizontal.svg?color=%2338BDF8" alt="Contributions" width="28" height="28" style="vertical-align: middle;" /> &nbsp; Contribution Trail
 
 <div align="center">
   <picture>
