@@ -1,176 +1,168 @@
 <div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:000000,50:0a0a0a,100:111111&height=200&section=header&text=Banuka%20Rajapaksha&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=55&desc=Computer%20Engineering%20%E2%80%A2%20AI%20%26%20Systems%20Engineer&descSize=16&descAlignY=75&descAlign=50"/>
-
+  <img src="./header.svg" alt="Banuka Rajapaksha" width="100%"/>
 </div>
+
+<br/>
+
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=15&duration=3500&pause=1000&color=38BDF8&center=true&vCenter=true&width=620&lines=Building+systems+that+scale%2C+automate+%26+think.;Global+Rank+%23418+%E2%80%94+IEEE+Xtreme+18.0+%2F+17%2C000%2B;AI+%C3%97+Distributed+Systems+%C3%97+Infrastructure.;Turning+engineering+problems+into+elegant+solutions." alt="Typing SVG"/>
+</div>
+
+<br/>
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3000&pause=800&color=888888&center=true&vCenter=true&multiline=false&width=600&lines=Building+systems+that+scale%2C+automate+%26+think.;AI+%C3%97+Distributed+Systems+%C3%97+DevOps.;Global+Rank+418+%E2%80%94+IEEE+Xtreme+18.0+%2F+17%2C000%2B.;Turning+engineering+problems+into+elegant+solutions." />
+```yaml
+profile:
+  name      : Banuka Rajapaksha
+  role      : Computer Engineering Undergraduate
+  focus     : Scalable Systems · Intelligent Automation · High-Performance Tools
+  domains   : [ AI/ML, Distributed Systems, DevOps, Developer Productivity ]
+  currently : Building AI productivity tools & distributed full-stack systems
+```
 
 </div>
 
 <br/>
 
-```
-╔══════════════════════════════════════════════════════════════════╗
-║  root@banuka:~$ whoami                                           ║
-║                                                                  ║
-║  > Computer Engineering Undergraduate                            ║
-║  > AI & Systems Engineer                                         ║
-║  > Builder of: Scalable Software · Automation · Infrastructure   ║
-║                                                                  ║
-║  Domains: AI · Distributed Systems · DevOps · Dev Productivity   ║
-╚══════════════════════════════════════════════════════════════════╝
-```
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" alt="Laptop" width="28" height="28" style="vertical-align: middle;" /> &nbsp; Featured Projects
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="32%" valign="top" align="left">
+
+### ⚡ FastRoboEyes
+**High-Performance Rendering Engine**
+
+Hardware-optimized animation pipeline built for robotics platforms.
+
+- Ported engine `C++ → Python`
+- Optimized `NumPy` pixel buffer
+- Designed for `Raspberry Pi`
 
 <br/>
-
----
-
-## ◈ Featured Projects
-
-<table width="100%">
-<tr>
-<td width="33%" valign="top">
-
-**⚡ FastRoboEyes**
-> High-Performance Rendering Engine
-
-Hardware-optimized animation pipeline for robotics platforms.
-
-`C++ → Python` `NumPy pixel buffers` `Raspberry Pi displays`
+<img src="https://img.shields.io/badge/C++-0a0a0a?style=flat-square&logo=c%2B%2B&logoColor=38BDF8" /> 
+<img src="https://img.shields.io/badge/Python-0a0a0a?style=flat-square&logo=python&logoColor=38BDF8" />
 
 </td>
-<td width="33%" valign="top">
+<td width="2%"></td>
+<td width="32%" valign="top" align="left">
 
-**🧠 AdaptiFocus**
-> AI Attention Management System
+### 🧠 AdaptiFocus
+**AI Attention Management**
 
-AI-driven productivity platform with browser automation & behavioral analytics.
+AI-driven productivity platform with behavioral analytics.
 
-`Chrome Extension` `FastAPI` `PostgreSQL` `Docker`
+- Extension → FastAPI → PostgreSQL
+- AI distraction detection engine
+- Containerized via `Docker`
+
+<br/>
+<img src="https://img.shields.io/badge/FastAPI-0a0a0a?style=flat-square&logo=fastapi&logoColor=38BDF8" /> 
+<img src="https://img.shields.io/badge/Docker-0a0a0a?style=flat-square&logo=docker&logoColor=38BDF8" />
 
 </td>
-<td width="33%" valign="top">
+<td width="2%"></td>
+<td width="32%" valign="top" align="left">
 
-**🌐 SDN Testbed**
-> Low-Cost Software Defined Networking
+### 🌐 SDN Testbed
+**Software Defined Networking**
 
 Experimental SDN environment on Raspberry Pi hardware.
 
-`OpenFlow routing` `Pi switch cluster` `Topology viz`
+- Pi switch cluster
+- OpenFlow routing
+- Topology visualization
+
+<br/>
+<img src="https://img.shields.io/badge/Linux-0a0a0a?style=flat-square&logo=linux&logoColor=38BDF8" /> 
+<img src="https://img.shields.io/badge/Network-0a0a0a?style=flat-square&logo=wireshark&logoColor=38BDF8" />
 
 </td>
 </tr>
 </table>
 
----
+<br/>
 
-## ◈ Stack
-
-<div align="center">
-
-**Languages**
-
-![Python](https://img.shields.io/badge/Python-0d0d0d?style=flat-square&logo=python&logoColor=888888)
-![C++](https://img.shields.io/badge/C++-0d0d0d?style=flat-square&logo=cplusplus&logoColor=888888)
-![Java](https://img.shields.io/badge/Java-0d0d0d?style=flat-square&logo=openjdk&logoColor=888888)
-![Dart](https://img.shields.io/badge/Dart-0d0d0d?style=flat-square&logo=dart&logoColor=888888)
-
-**Frameworks**
-
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-0d0d0d?style=flat-square&logo=springboot&logoColor=888888)
-![React](https://img.shields.io/badge/React-0d0d0d?style=flat-square&logo=react&logoColor=888888)
-![FastAPI](https://img.shields.io/badge/FastAPI-0d0d0d?style=flat-square&logo=fastapi&logoColor=888888)
-![Flutter](https://img.shields.io/badge/Flutter-0d0d0d?style=flat-square&logo=flutter&logoColor=888888)
-
-**Infrastructure**
-
-![AWS](https://img.shields.io/badge/AWS-0d0d0d?style=flat-square&logo=amazonwebservices&logoColor=888888)
-![Docker](https://img.shields.io/badge/Docker-0d0d0d?style=flat-square&logo=docker&logoColor=888888)
-![Terraform](https://img.shields.io/badge/Terraform-0d0d0d?style=flat-square&logo=terraform&logoColor=888888)
-![Linux](https://img.shields.io/badge/Linux-0d0d0d?style=flat-square&logo=linux&logoColor=888888)
-
-</div>
-
----
-
-## ◈ Highlights
-
-```yaml
-achievements:
-  - rank: "#418 globally / 17,000+ competitors — IEEE Xtreme 18.0"
-  - rank: "#22 Sri Lanka — IEEE Xtreme 18.0"
-  - built:  "ML traffic classification → 94.3% accuracy"
-  - built:  "Automated cloud CI/CD infrastructure"
-
-currently_building:
-  - AI productivity tools
-  - Distributed full-stack systems
-  - Intelligent developer automation
-```
-
----
-
-## ◈ GitHub Analytics
-
-<div align="center">
-
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=PrageethBanuka&show_icons=true&theme=transparent&hide_border=true&title_color=666666&icon_color=666666&text_color=888888&bg_color=00000000" />
-&nbsp;&nbsp;
-<img height="160" src="https://github-readme-streak-stats.herokuapp.com/?user=PrageethBanuka&theme=transparent&hide_border=true&stroke=333333&ring=666666&fire=888888&currStreakLabel=888888&sideLabels=666666&dates=555555" />
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=PrageethBanuka&bg_color=0d0d0d&color=666666&line=444444&point=888888&area_color=1a1a1a&area=true&hide_border=true&custom_title=contribution%20graph" width="95%"/>
-
-</div>
-
----
-
-## ◈ Contribution Trail
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PrageethBanuka/PrageethBanuka/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/PrageethBanuka/PrageethBanuka/output/github-contribution-grid-snake.svg" />
-  <img alt="contribution snake" src="https://raw.githubusercontent.com/PrageethBanuka/PrageethBanuka/output/github-contribution-grid-snake-dark.svg" />
-</picture>
-
-</div>
-
----
-
-## ◈ Profile Card
-
-<div align="center">
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=PrageethBanuka&theme=github_dark" width="95%"/>
-
-</div>
-
----
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0d0d0d?style=flat-square&logo=linkedin&logoColor=555555)](https://linkedin.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-0d0d0d?style=flat-square&logo=vercel&logoColor=555555)](#)
-[![Email](https://img.shields.io/badge/Email-0d0d0d?style=flat-square&logo=gmail&logoColor=555555)](mailto:your@email.com)
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Toolbox.png" alt="Toolbox" width="28" height="28" style="vertical-align: middle;" /> &nbsp; Technology Stack
 
 <br/>
 
-<img src="https://komarev.com/ghpvc/?username=PrageethBanuka&style=flat-square&color=333333&label=profile+views" />
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=python,cpp,java,dart,spring,react,flutter,fastapi,aws,docker,terraform,linux&theme=dark&perline=6" />
+</div>
 
 <br/><br/>
 
-```
-  engineering systems that scale, automate, and think.
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Trophy.png" alt="Trophy" width="28" height="28" style="vertical-align: middle;" /> &nbsp; Achievements
+
+<br/>
+
+<div align="center">
+
+```text
+╭─────────────────────────────────────────────────────────────────╮
+│                                                                 │
+│   🏆  IEEE Xtreme 18.0      →   Global #418  /  17,000+ teams   │
+│   🇱🇰  Sri Lanka Rank        →   #22                             │
+│   📡  ML Traffic Classifier →   94.3% accuracy                  │
+│   ☁️   Cloud CI/CD           →   Fully automated infrastructure  │
+│                                                                 │
+╰─────────────────────────────────────────────────────────────────╯
 ```
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:0d0d0d&height=2&section=footer"/>
+<br/>
+
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Chart%20Increasing.png" alt="Chart" width="28" height="28" style="vertical-align: middle;" /> &nbsp; Activity Matrix
+
+<br/>
+
+<div align="center">
+
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=PrageethBanuka&show_icons=true&theme=transparent&hide_border=true&title_color=E5E7EB&icon_color=38BDF8&text_color=9CA3AF&bg_color=00000000&rank_icon=github" />
+&nbsp;&nbsp;
+<img height="160" src="https://github-readme-streak-stats.herokuapp.com/?user=PrageethBanuka&theme=transparent&hide_border=true&stroke=38BDF8&ring=38BDF8&fire=38BDF8&currStreakLabel=38BDF8&currStreakNum=E5E7EB&sideNums=E5E7EB&sideLabels=9CA3AF&dates=9CA3AF&background=00000000" />
+
+<br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=PrageethBanuka&bg_color=00000000&color=38BDF8&line=38BDF8&point=E5E7EB&area_color=00000000&area=true&hide_border=true&custom_title=Contribution+Activity&title_color=E5E7EB" width="96%"/>
+
+</div>
+
+<br/>
+
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals/Snake.png" alt="Snake" width="28" height="28" style="vertical-align: middle;" /> &nbsp; Contribution Trail
+
+<br/>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/PrageethBanuka/PrageethBanuka/output/github-contribution-grid-snake-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/PrageethBanuka/PrageethBanuka/output/github-contribution-grid-snake.svg"/>
+    <img alt="Snake animation" src="https://raw.githubusercontent.com/PrageethBanuka/PrageethBanuka/output/github-contribution-grid-snake-dark.svg"/>
+  </picture>
+</div>
+
+<br/>
+
+---
+
+<br/>
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0a0a0a?style=flat-square&logo=linkedin&logoColor=38BDF8&labelColor=0a0a0a)](https://linkedin.com)&nbsp;
+[![Portfolio](https://img.shields.io/badge/Portfolio-0a0a0a?style=flat-square&logo=vercel&logoColor=38BDF8&labelColor=0a0a0a)](#)&nbsp;
+[![Email](https://img.shields.io/badge/Email-0a0a0a?style=flat-square&logo=gmail&logoColor=38BDF8&labelColor=0a0a0a)](mailto:your@email.com)
+
+<br/>
+
+<img src="https://komarev.com/ghpvc/?username=PrageethBanuka&style=flat-square&color=38BDF8&label=visitors&labelColor=0a0a0a" />
+
+<br/><br/>
+
+<sub><samp>engineering systems that scale, automate, and think</samp></sub>
+
+</div>
