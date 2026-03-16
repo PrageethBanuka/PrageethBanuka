@@ -21,19 +21,11 @@ profile:
 
 ## <img src="https://api.iconify.design/lucide:code-2.svg?color=%2338BDF8" alt="Featured" width="28" height="28" style="vertical-align: middle;" /> &nbsp; Featured Projects
 
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
-<tr valign="top">
-<td width="33%" align="center">
-<a href="#"><img src="project1.svg" width="100%" alt="FastRoboEyes"/></a>
-</td>
-<td width="33%" align="center">
-<a href="#"><img src="project2.svg" width="100%" alt="AdaptiFocus"/></a>
-</td>
-<td width="34%" align="center">
-<a href="#"><img src="project3.svg" width="100%" alt="SDN Testbed"/></a>
-</td>
-</tr>
-</table>
+<div align="center">
+  <a href="#"><img src="project1.svg" width="32%" alt="FastRoboEyes"/></a>
+  <a href="#"><img src="project2.svg" width="32%" alt="AdaptiFocus"/></a>
+  <a href="#"><img src="project3.svg" width="32%" alt="SDN Testbed"/></a>
+</div>
 
 <br/>
 

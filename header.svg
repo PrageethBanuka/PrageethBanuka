@@ -1,7 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 260" width="100%" height="100%">
   <defs>
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&amp;display=swap');
+      <![CDATA[
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
 
       /* ── Animations ───────────────────────────── */
       @keyframes fadeIn {
@@ -100,7 +101,7 @@
       .c2 { opacity:0; animation: chipSlide 0.5s cubic-bezier(0.16,1,0.3,1) 1.35s forwards; }
       .c3 { opacity:0; animation: chipSlide 0.5s cubic-bezier(0.16,1,0.3,1) 1.45s forwards; }
       .c4 { opacity:0; animation: chipSlide 0.5s cubic-bezier(0.16,1,0.3,1) 1.55s forwards; }
-
+      ]]>
     </style>
   </defs>
 
@@ -126,31 +127,31 @@
   <!-- ── SUBTITLE ── -->
   <text class="subtitle" x="450" y="156" text-anchor="middle">COMPUTER ENGINEERING · AI · SYSTEMS</text>
 
-  <!-- ── CHIPS (Centered exactly over 800px panel) ── -->
+  <!-- ── CHIPS (Total Width: 125+85+90+100 + (3*20 margin) = 460. Panel width = 900. Offset = (900-460)/2 = 220) ── -->
 
-  <!-- Dist x=235 -->
-  <g class="c1" transform="translate(235, 184)">
+  <!-- Dist x=220 -->
+  <g class="c1" transform="translate(220, 184)">
     <rect width="125" height="28" rx="8" class="chip-bg"/>
     <path class="chip-icon" d="M12 4 L4 12 L12 20 M20 4 L12 12 L20 20" transform="translate(6, 2) scale(0.55)"/>
     <text class="chip-text" x="32" y="18">DISTRIBUTED</text>
   </g>
 
-  <!-- AI x=370 -->
-  <g class="c2" transform="translate(370, 184)">
+  <!-- AI x=220+125+20=365 -->
+  <g class="c2" transform="translate(365, 184)">
     <rect width="85" height="28" rx="8" class="chip-bg"/>
     <path class="chip-icon" d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" transform="translate(6, 2) scale(0.55)"/>
     <text class="chip-text" x="30" y="18">AI / ML</text>
   </g>
 
-  <!-- DevOps x=465 -->
-  <g class="c3" transform="translate(465, 184)">
+  <!-- DevOps x=365+85+20=470 -->
+  <g class="c3" transform="translate(470, 184)">
     <rect width="90" height="28" rx="8" class="chip-bg"/>
     <path class="chip-icon" d="M7 16V4M7 8l-4 4 4 4M17 8v12M17 16l4-4-4-4" transform="translate(5, 2) scale(0.55)"/>
     <text class="chip-text" x="30" y="18">DEVOPS</text>
   </g>
 
-  <!-- Robotics x=565 -->
-  <g class="c4" transform="translate(565, 184)">
+  <!-- Robotics x=470+90+20=580 -->
+  <g class="c4" transform="translate(580, 184)">
     <rect width="100" height="28" rx="8" class="chip-bg"/>
     <path class="chip-icon" d="M12 8V4H8M12 8h4V4" transform="translate(8, 2) scale(0.55)"/>
     <circle cx="21" cy="16" r="3" class="chip-icon"/>
