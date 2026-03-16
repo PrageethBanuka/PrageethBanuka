@@ -41,15 +41,53 @@ profile:
 
 <div align="center">
 
-```text
-╭─────────────────────────────────────────────────────────────────╮
-│                                                                 │
-│   🏆  IEEE Xtreme 18.0      →   Global #418  /  17,000+ teams   │
-│   🇱🇰  Sri Lanka Rank        →   #22                             │
-│   📡  ML Traffic Classifier →   94.3% accuracy                  │
-│   ☁️   Cloud CI/CD           →   Fully automated infrastructure  │
-│                                                                 │
-╰─────────────────────────────────────────────────────────────────╯
+```html
+<table width="100%" border="0" cellspacing="0" cellpadding="8">
+  <tr valign="middle">
+    <td width="5%" align="center">
+      <img src="https://api.iconify.design/lucide:award.svg?color=%2338BDF8" width="22" height="22" alt="Award"/>
+    </td>
+    <td width="35%" align="left">
+      <strong>IEEE Xtreme 18.0</strong>
+    </td>
+    <td width="60%" align="right">
+      <samp>Global #418 / 17,000+ teams</samp>
+    </td>
+  </tr>
+  <tr valign="middle">
+    <td width="5%" align="center">
+      <img src="https://api.iconify.design/lucide:map-pin.svg?color=%2338BDF8" width="22" height="22" alt="Map"/>
+    </td>
+    <td width="35%" align="left">
+      <strong>Sri Lanka Rank</strong>
+    </td>
+    <td width="60%" align="right">
+      <samp>#22</samp>
+    </td>
+  </tr>
+  <tr valign="middle">
+    <td width="5%" align="center">
+      <img src="https://api.iconify.design/lucide:activity.svg?color=%2338BDF8" width="22" height="22" alt="Activity"/>
+    </td>
+    <td width="35%" align="left">
+      <strong>ML Traffic Classifier</strong>
+    </td>
+    <td width="60%" align="right">
+      <samp>94.3% accuracy</samp>
+    </td>
+  </tr>
+  <tr valign="middle">
+    <td width="5%" align="center">
+      <img src="https://api.iconify.design/lucide:cloud.svg?color=%2338BDF8" width="22" height="22" alt="Cloud"/>
+    </td>
+    <td width="35%" align="left">
+      <strong>Cloud CI/CD</strong>
+    </td>
+    <td width="60%" align="right">
+      <samp>Fully automated infrastructure</samp>
+    </td>
+  </tr>
+</table>
 ```
 
 </div>
