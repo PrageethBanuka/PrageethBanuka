@@ -8,8 +8,6 @@
 
 <br/>
 
-<div align="center">
-
 ```yaml
 profile:
   name      : Banuka Rajapaksha
@@ -19,61 +17,20 @@ profile:
   currently : Building AI productivity tools & distributed full-stack systems
 ```
 
-</div>
-
 <br/>
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" alt="Laptop" width="28" height="28" style="vertical-align: middle;" /> &nbsp; Featured Projects
 
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
-<td width="33%">
-
-### ⚡ FastRoboEyes
-**High-Performance Rendering Engine**
-
-Hardware-optimized animation pipeline built for robotics platforms.
-
-- Ported engine `C++ → Python`
-- Optimized `NumPy` pixel buffer
-- Designed for `Raspberry Pi`
-
-<br/>
-<img src="https://img.shields.io/badge/C++-0a0a0a?style=flat-square&logo=c%2B%2B&logoColor=38BDF8" /> 
-<img src="https://img.shields.io/badge/Python-0a0a0a?style=flat-square&logo=python&logoColor=38BDF8" />
-
+<td width="33%" align="center">
+<a href="#"><img src="./project1.svg" alt="FastRoboEyes"/></a>
 </td>
-<td width="33%">
-
-### 🧠 AdaptiFocus
-**AI Attention Management**
-
-AI-driven productivity platform with behavioral analytics.
-
-- Extension → FastAPI → PostgreSQL
-- AI distraction detection engine
-- Containerized via `Docker`
-
-<br/>
-<img src="https://img.shields.io/badge/FastAPI-0a0a0a?style=flat-square&logo=fastapi&logoColor=38BDF8" /> 
-<img src="https://img.shields.io/badge/Docker-0a0a0a?style=flat-square&logo=docker&logoColor=38BDF8" />
-
+<td width="33%" align="center">
+<a href="#"><img src="./project2.svg" alt="AdaptiFocus"/></a>
 </td>
-<td width="34%">
-
-### 🌐 SDN Testbed
-**Software Defined Networking**
-
-Experimental SDN environment on Raspberry Pi hardware.
-
-- Pi switch cluster
-- OpenFlow routing
-- Topology visualization
-
-<br/>
-<img src="https://img.shields.io/badge/Linux-0a0a0a?style=flat-square&logo=linux&logoColor=38BDF8" /> 
-<img src="https://img.shields.io/badge/Network-0a0a0a?style=flat-square&logo=wireshark&logoColor=38BDF8" />
-
+<td width="34%" align="center">
+<a href="#"><img src="./project3.svg" alt="SDN Testbed"/></a>
 </td>
 </tr>
 </table>
