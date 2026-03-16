@@ -41,7 +41,6 @@ profile:
 
 <div align="center">
 
-```html
 <table width="100%" border="0" cellspacing="0" cellpadding="8">
   <tr valign="middle">
     <td width="5%" align="center">
@@ -88,7 +87,6 @@ profile:
     </td>
   </tr>
 </table>
-```
 
 </div>
 
