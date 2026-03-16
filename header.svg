@@ -130,32 +130,40 @@
   <!-- ── CHIPS (Total Width: 125+85+90+100 + (3*20 margin) = 460. Panel width = 900. Offset = (900-460)/2 = 220) ── -->
 
   <!-- Dist x=220 -->
-  <g class="c1" transform="translate(220, 184)">
-    <rect width="125" height="28" rx="8" class="chip-bg"/>
-    <path class="chip-icon" d="M12 4 L4 12 L12 20 M20 4 L12 12 L20 20" transform="translate(6, 2) scale(0.55)"/>
-    <text class="chip-text" x="32" y="18">DISTRIBUTED</text>
+  <g transform="translate(220, 184)">
+    <g class="c1">
+      <rect width="125" height="28" rx="8" class="chip-bg"/>
+      <path class="chip-icon" d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16zM3.27 6.96L12 12.01l8.73-5.05M12 22.08V12" transform="translate(6, 4) scale(0.85)"/>
+      <text class="chip-text" x="32" y="18">DISTRIBUTED</text>
+    </g>
   </g>
 
   <!-- AI x=220+125+20=365 -->
-  <g class="c2" transform="translate(365, 184)">
-    <rect width="85" height="28" rx="8" class="chip-bg"/>
-    <path class="chip-icon" d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" transform="translate(6, 2) scale(0.55)"/>
-    <text class="chip-text" x="30" y="18">AI / ML</text>
+  <g transform="translate(365, 184)">
+    <g class="c2">
+      <rect width="85" height="28" rx="8" class="chip-bg"/>
+      <path class="chip-icon" d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6M18 19l4-4-4-4M6 5L2 9l4 4" transform="translate(6, 4) scale(0.85)"/>
+      <text class="chip-text" x="30" y="18">AI / ML</text>
+    </g>
   </g>
 
   <!-- DevOps x=365+85+20=470 -->
-  <g class="c3" transform="translate(470, 184)">
-    <rect width="90" height="28" rx="8" class="chip-bg"/>
-    <path class="chip-icon" d="M7 16V4M7 8l-4 4 4 4M17 8v12M17 16l4-4-4-4" transform="translate(5, 2) scale(0.55)"/>
-    <text class="chip-text" x="30" y="18">DEVOPS</text>
+  <g transform="translate(470, 184)">
+    <g class="c3">
+      <rect width="90" height="28" rx="8" class="chip-bg"/>
+      <path class="chip-icon" d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18z M12 3v18 M3 12h18 M12 12v5" transform="translate(6, 4) scale(0.85)"/>
+      <text class="chip-text" x="30" y="18">DEVOPS</text>
+    </g>
   </g>
 
   <!-- Robotics x=470+90+20=580 -->
-  <g class="c4" transform="translate(580, 184)">
-    <rect width="100" height="28" rx="8" class="chip-bg"/>
-    <path class="chip-icon" d="M12 8V4H8M12 8h4V4" transform="translate(8, 2) scale(0.55)"/>
-    <circle cx="21" cy="16" r="3" class="chip-icon"/>
-    <text class="chip-text" x="34" y="18">ROBOTICS</text>
+  <g transform="translate(580, 184)">
+    <g class="c4">
+      <rect width="100" height="28" rx="8" class="chip-bg"/>
+      <path class="chip-icon" d="M12 8V4H8M12 8h4V4 M4 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z M20 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z M15 13v2 M9 13v2 M12 20v-2" transform="translate(6, 4) scale(0.85)"/>
+      <circle cx="12" cy="14" r="5" class="chip-icon" transform="translate(6, 4) scale(0.85)"/>
+      <text class="chip-text" x="34" y="18">ROBOTICS</text>
+    </g>
   </g>
 
 </svg>

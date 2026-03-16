@@ -38,9 +38,6 @@ cards = [
 
 template = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 230" width="380" height="230">
   <defs>
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="35" result="blur" />
-    </filter>
     <linearGradient id="glassGradient" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="rgba(255,255,255,0.08)" />
       <stop offset="100%" stop-color="rgba(255,255,255,0.01)" />
@@ -49,15 +46,10 @@ template = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 230" widt
       <stop offset="0%" stop-color="rgba(255,255,255,0.25)" />
       <stop offset="100%" stop-color="rgba(255,255,255,0.04)" />
     </linearGradient>
-    <filter id="shadow">
-      <feDropShadow dx="0" dy="15" stdDeviation="20" flood-color="#000" flood-opacity="0.4" />
-    </filter>
   </defs>
 
-  <circle cx="40" cy="40" r="70" fill="{glow1}" filter="url(#glow)" />
-  <circle cx="340" cy="190" r="80" fill="{glow2}" filter="url(#glow)" />
-
-  <rect x="15" y="15" width="350" height="200" rx="20" ry="20" fill="url(#glassGradient)" stroke="url(#borderGradient)" stroke-width="1.5" filter="url(#shadow)" />
+  <!-- Clear Glass Panel Only -->
+  <rect x="15" y="15" width="350" height="200" rx="20" ry="20" fill="url(#glassGradient)" stroke="url(#borderGradient)" stroke-width="1.5" />
 
   <g transform="translate(34, 38) scale(1.3)">
     {icon_path}
